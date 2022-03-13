@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+body {
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-violet {
+  background-color: violet;
+}
+
+.color-violet {
+  color: violet;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: violet;
+  transition: all 0.7s;
+}
+
+.about-bg, .contact-bg, .work-bg {
+  background-image: url(../img/about-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.work-bg {
+  background-image: url(../img/portfolio-bg.jpg);
+}
+
+.contact-bg {
+  background-image: url(../img/contact.jpg);
+}
+
+.btn-twitch {
+  background-color: #6441a5;
+  color: #fff;
+}
+
+.btn-violet {
+  background-color: violet;
+  color: #fff;
+}
+.btn-violet:hover {
+  opacity: 0.8;
+  transition: 0.7s;
+}
+
+.card, .card-title {
+  background-color: #000;
+  opacity: 0.96;
+  color: #fff;
+}
+.card:hover, .card-title:hover {
+  opacity: 0.8;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.form-control {
+  color: white;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid violet;
+}
+
+label {
+  color: white;
+}
+
+.bx-shadow {
+  box-shadow: 0 0 20px 0 violet;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  p,
+.lead {
+    font-size: 0.9rem;
+  }
+
+  .about-p {
+    font-size: 1rem;
+  }
+
+  #button-newsletter {
+    font-size: 0.7rem;
+  }
+}
+body {
+  font-family: "Orbitron", sans-serif;
+}
+
+footer {
+  font-family: "PT Mono", monospace;
+}
+
+p {
+  line-height: 1.7;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.video-bg {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.img-fluid {
+  height: 100%;
+  box-shadow: 0 0 20px 0 violet;
+  transition: all 0.7s;
+}
+.img-fluid:hover {
+  opacity: 0.8;
+  transition: 0.7s;
+}
+
+.carousel-item img {
+  height: 350px;
+}
+
+/*# sourceMappingURL=styles.css.map */

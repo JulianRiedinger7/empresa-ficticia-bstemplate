@@ -1,0 +1,99 @@
+$bg-black: #000;
+$color-principal: #fff;
+$violeta : violet;
+
+body{
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+
+}
+
+.bg-black{
+    background-color: $bg-black
+}
+
+.bg-violet{
+    background-color: $violeta;
+}
+
+.color-violet{
+    color: $violeta;
+}
+
+header{
+    background: rgba(0,0,0,0.25);
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: $color-principal;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: $violeta;
+    transition: all .7s;
+}
+
+.about-bg{
+    background-image: url(../img/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.work-bg{
+    @extend .about-bg;
+    background-image: url(../img/portfolio-bg.jpg);
+    
+}
+
+.contact-bg{
+    @extend .about-bg;
+    background-image: url(../img/contact.jpg);
+}
+
+
+.btn-twitch{
+    background-color: #6441a5;
+    color: $color-principal;
+}
+
+.btn-violet{
+    background-color: $violeta;
+    color: $color-principal;
+    &:hover{
+        opacity: .8;
+        transition: .7s;
+    }
+}
+
+.card{
+    background-color: $bg-black;
+    opacity: .96;
+    color: $color-principal;
+    &:hover{
+        opacity: .8;
+    }
+}
+
+.card-title{
+    @extend .card;
+    text-align: center;
+}
+
+.form-control{
+    color: white;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid $violeta;
+}
+
+label{
+    color: white;
+}
+
+.bx-shadow{
+    box-shadow: 0 0 20px 0 violet;
+}

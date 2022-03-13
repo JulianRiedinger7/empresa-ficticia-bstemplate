@@ -1,0 +1,32 @@
+@import "colors";
+@import "medias";
+@import "tipografia";
+
+.video-bg{
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.img-fluid{
+    height: 100%;
+    box-shadow: 0 0 20px 0 $violeta;
+    transition: all .7s;
+    &:hover{
+        opacity: .8;
+        transition: .7s;
+    }
+}
+
+.carousel-item img{
+    height: 350px;
+}
+
+
+
+
