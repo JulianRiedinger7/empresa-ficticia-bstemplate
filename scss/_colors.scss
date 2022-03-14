@@ -8,6 +8,14 @@ body{
 
 }
 
+nav{
+    border-bottom: 1px solid $violeta;
+}
+
+footer{
+    border-top: 1px solid $violeta;
+}
+
 .bg-black{
     background-color: $bg-black
 }
@@ -40,7 +48,7 @@ header{
     background-image: url(../img/about-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
 .work-bg{
